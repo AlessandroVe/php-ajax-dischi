@@ -15,26 +15,25 @@
     <header id="top-banner">
         <img src="./img/logo.png" alt="">
     </header>
-    <div id="container-discs">
-        <?php
-            foreach($database as $disk){
-                echo 
-                "
-                    <div class=\"text-white\">
-                        <div>
-                            <img src=\"{$disk['poster']}\" alt=\"cover-disk\">
+    <div class="container" id="container-discs">
+        <div class="row justify-content-center">
+            <?php
+                foreach($database as $disk){
+                    echo 
+                    "
+                        <div class=\"text-white  disk\">
+                            <div class=\"cover\">
+                                <img src=\"{$disk['poster']}\" alt=\"cover-disk\">
+                            </div>
+                            <h5>{$disk['title']}</h5>
+                            <span>{$disk['author']}</span> 
+                            <span>{$disk['year']}</span>
+                            
                         </div>
-                        <h5>{$disk['title']}</h5>
-                        <span>{$disk['author']}</span> 
-                        <span>{$disk['year']}</span>
-                        
-                    </div>
-                ";
-
-            }
-
-
-        ?>
+                    ";
+                }
+            ?>
+        </div>
     </div>
     <img src="" alt="">
     

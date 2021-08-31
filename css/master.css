@@ -16,3 +16,16 @@ body{
     height: 100%;
     margin-left: 5px;
 }
+/* container-discs */
+#container-discs .disk{
+    width: 250px;
+    padding: 15px;
+
+}
+#container-discs .disk .cover {
+    width: 100%;
+}
+#container-discs .disk .cover img{
+    width: 100%;
+
+}
