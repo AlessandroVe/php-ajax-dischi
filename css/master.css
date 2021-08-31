@@ -20,7 +20,9 @@ body{
 #container-discs .disk{
     width: 250px;
     padding: 15px;
-
+    margin: 15px;
+    background-color: rgb(72, 72, 121);
+    text-align: center;
 }
 #container-discs .disk .cover {
     width: 100%;

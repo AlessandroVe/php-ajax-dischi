@@ -26,9 +26,8 @@
                                 <img src=\"{$disk['poster']}\" alt=\"cover-disk\">
                             </div>
                             <h5>{$disk['title']}</h5>
-                            <span>{$disk['author']}</span> 
-                            <span>{$disk['year']}</span>
-                            
+                            <main>{$disk['author']}</main> 
+                            <main>{$disk['year']}</main>
                         </div>
                     ";
                 }
