@@ -1,0 +1,17 @@
+body{
+  background-color: rgb(27, 27, 104);  
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* TOP-BANNER*/
+#top-banner{
+    background-color:rgb(72, 72, 121) ;
+    height: 50px;
+}
+#top-banner img {
+    height: 100%;
+    margin-left: 5px;
+}
