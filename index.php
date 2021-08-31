@@ -17,7 +17,21 @@
     </header>
     <div id="container-discs">
         <?php
-            
+            foreach($database as $disk){
+                echo 
+                "
+                    <div class=\"text-white\">
+                        <div>
+
+                        </div>
+                        <h5>{$disk['title']}</h5>
+                        <span>{$disk['author']}</span> 
+                        <span>{$disk['year']}</span>
+                        
+                    </div>
+                ";
+
+            }
 
 
         ?>
