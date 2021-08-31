@@ -1,3 +1,6 @@
+<?php
+    require_once "database/database.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,8 +12,15 @@
     <title>PHP-DISCHI</title>
 </head>
 <body>
-    <div id="top-banner">
+    <header id="top-banner">
         <img src="./img/logo.png" alt="">
+    </header>
+    <div id="container-discs">
+        <?php
+            
+
+
+        ?>
     </div>
     
 </body>

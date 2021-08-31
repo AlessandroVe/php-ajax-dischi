@@ -9,7 +9,8 @@ body{
 /* TOP-BANNER*/
 #top-banner{
     background-color:rgb(72, 72, 121) ;
-    height: 50px;
+    height: 60px;
+    padding: 5px;
 }
 #top-banner img {
     height: 100%;
