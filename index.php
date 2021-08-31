@@ -22,7 +22,7 @@
                 "
                     <div class=\"text-white\">
                         <div>
-
+                            <img src=\"{$disk['poster']}\" alt=\"cover-disk\">
                         </div>
                         <h5>{$disk['title']}</h5>
                         <span>{$disk['author']}</span> 
@@ -36,6 +36,7 @@
 
         ?>
     </div>
+    <img src="" alt="">
     
 </body>
 </html>
